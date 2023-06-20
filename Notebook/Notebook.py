@@ -1,4 +1,4 @@
-from Notebook import Note
+import Note
 
 
 class Notebook:
@@ -15,5 +15,5 @@ class Notebook:
         self.notes[newNote.uid] = newNote
 
 
-notebook = Notebook()
-notebook.add(note('title1', 'message1'))
+# notebook = Notebook()
+# notebook.add(note('title1', 'message1'))

@@ -20,7 +20,3 @@ class Note:
         self._title = title
 
 
-note1 = Note()
-note2 = Note()
-print(note1)
-print(note2)
